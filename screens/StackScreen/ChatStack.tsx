@@ -7,7 +7,7 @@ import {
   Modal,
 } from 'react-native';
 import React, {useState} from 'react';
-import {FlatList, ScrollView} from 'react-native-gesture-handler';
+import {FlatList, ScrollView, TextInput} from 'react-native-gesture-handler';
 import {styles} from './StackStyle';
 import {SafeAreaView} from 'react-native-safe-area-context';
 import Icon from 'react-native-vector-icons/Ionicons';
@@ -93,10 +93,21 @@ const ChatStack = () => {
     showModal(true);
     setData(item);
   }
+
+  const[search,setSearch]=useState("");
+  const filterData=personData.filter((person)=>
+    person.name.toLowerCase().includes(search.toLowerCase())
+  )
   return (
     <View>
+      <View style={styles.searchwrap}>
+
+      <Icon name="search" size={20} style={styles.searchicon} color={"white"}></Icon>
+      <TextInput placeholder="Enter name to search" value={search} onChangeText={(text)=>setSearch(text)} style={styles.searchbar} placeholderTextColor={"white"}></TextInput>
+      
+      </View>
       <FlatList
-        data={personData}
+        data={filterData}
         renderItem={({item}) => (
           <View style={styles.wrap}>
             <View style={styles.innerwrap}>

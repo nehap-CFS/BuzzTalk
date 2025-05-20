@@ -16,11 +16,9 @@ const StackLogin = () => {
   return (
     <Stack.Navigator
       screenOptions={{
-        // headerShown:false,
-        title: 'BuzzHome',
-        headerStyle: {
-      
-        },
+        headerShown:false,
+        // title: 'BuzzHome',
+        
       }}>
       <Stack.Screen name="Login" component={Login} />
       <Stack.Screen name="Home" component={Home} />

@@ -339,4 +339,23 @@ export const styles = StyleSheet.create({
     width: 80,
     borderRadius: 40,
   },
+  searchbar: {
+   fontSize:18,
+   color:"white"
+  },
+  searchwrap:{
+    flexDirection:"row",
+    padding:10,
+    backgroundColor:"#4E6688",
+    marginTop:10,
+    marginBottom:10,
+    margin:"auto",
+    width:390,
+    elevation:4,
+    borderRadius:5
+  }
+  ,searchicon:{
+    marginTop:13,
+    marginRight:5
+  }
 });
