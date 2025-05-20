@@ -42,7 +42,8 @@ export const styles = StyleSheet.create({
     color: 'grey',
     fontWeight: '400',
     textAlign: 'center',
-    marginBottom: 60,
+    marginBottom: 40,
+    marginTop: 160,
   },
   desc: {
     color: 'grey',
@@ -71,12 +72,19 @@ export const styles = StyleSheet.create({
   homeimg: {
     height: 300,
     width: 300,
-    marginTop: -100,
+    marginTop: -140,
+    marginLeft: -150,
   },
   homewrap: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: 'white',
+  },
+  card: {
+    height: 250,
+    width: 250,
+    position: 'absolute',
+    backfaceVisibility: 'hidden',
   },
 });

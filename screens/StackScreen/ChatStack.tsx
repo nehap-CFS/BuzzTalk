@@ -103,7 +103,7 @@ const ChatStack = () => {
       <View style={styles.searchwrap}>
 
       <Icon name="search" size={20} style={styles.searchicon} color={"white"}></Icon>
-      <TextInput placeholder="Enter name to search" value={search} onChangeText={(text)=>setSearch(text)} style={styles.searchbar} placeholderTextColor={"white"}></TextInput>
+      <TextInput placeholder="Enter name to search" value={search} onChangeText={(text)=>setSearch(text)} style={styles.searchbar} placeholderTextColor={"white"} selectionColor={"white"}></TextInput>
       
       </View>
       <FlatList

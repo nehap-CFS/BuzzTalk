@@ -7,7 +7,7 @@ Stack, Top Tab, and Drawer Navigation using React Navigation
 
 -Login screen.
 
--Home screen.
+-Home screen.(Home screen has react-reanimation where the image gets flipped on press.)
 
 -Drawer(Settings,BuzzTalk)
 

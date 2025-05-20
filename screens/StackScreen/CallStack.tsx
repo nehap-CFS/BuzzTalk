@@ -132,7 +132,7 @@ const CallStack = () => {
     setFav(true);
   }
   const [name, setName] = useState('');
-  const [favperson, setFavPerson] = useState<datatype[]>();
+  const [favperson, setFavPerson] = useState<datatype[]>([]);
   const handleAdd = () => {
     setName('');
     //only want to find so no need to use statefunction
