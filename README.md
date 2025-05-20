@@ -20,6 +20,7 @@ In buzztalk:-
    -Call screen.
 
 In settings:-
+
     -Settings screen.
 
 3. Used react-native-vector-icons, modals, flatlist, local Storage.
