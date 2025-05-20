@@ -10,7 +10,9 @@ Stack, Top Tab, and Drawer Navigation using React Navigation
 -Home screen.
 
 -Drawer(Settings,BuzzTalk)
+
 In buzztalk:-
+
    -Chat screen.
 
    -Status screen.
@@ -18,7 +20,8 @@ In buzztalk:-
    -Call screen.
 
 In settings:-
-    -Settings screen.
+
+   -Settings screen.
 
 3. Used react-native-vector-icons, modals, flatlist, local Storage.
 
