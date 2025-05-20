@@ -21,7 +21,7 @@ In buzztalk:-
 
 In settings:-
 
-    -Settings screen.
+   -Settings screen.
 
 3. Used react-native-vector-icons, modals, flatlist, local Storage.
 
