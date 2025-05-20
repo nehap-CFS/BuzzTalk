@@ -11,6 +11,7 @@ Stack, Top Tab, and Drawer Navigation using React Navigation
 
 -Drawer(Settings,BuzzTalk)
 In buzztalk:-
+
    -Chat screen.
 
    -Status screen.
